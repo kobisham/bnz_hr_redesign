@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>כח אדם זמין</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous"> -->
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body dir="rtl">
+
+    <div class="container">
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">חיפוש
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">דוחות
+                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">טבלאות
+                    <i class="fa fa-table" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">עובד חדש
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">הדרכות
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>                        
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+    <div class="container ">
+        <div class="card bg-primary card-inverse">
+
+
+            <div class="card-block" style="font-weight: bold;">
+                <form>
+                    <div class="form-group row nopadding">
+                        <label for="" class="col-sm-2 col-form-label">שם העובד</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="" id="" placeholder="">
+                        </div>
+                        <label for="" class="col-sm-1 col-form-label">סקטור</label>
+                        <div class="col-sm-2">
+                            <select class="form-control" name="" id="">
+                                        <option>מנהל ומשק</option>
+                                        <option>רופאים</option>
+                                        <option>פארא-רפואי</option>
+                                        <option>אחיות</option>
+                                        <option>אחר</option>
+                                </select>
+                        </div>
+                        <label for="" class="col-sm-1 col-form-label">מפעל</label>
+                        <div class="col-sm-2">
+                            <select class="form-control" name="" id="">
+                                    <option>עירייה</option>
+                                    <option>קרן מחקרים</option>
+                                    <option>אגודת הידידים</option>
+                                    <option>לא ידוע</option>
+                        </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row nopadding">
+                        <label for="" class="col-sm-2 col-form-label">ת.ז</label>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control" name="" id="" placeholder="">
+                        </div>
+                        <label for="" class="col-sm-1 col-form-label">מחלקה</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="" id="" placeholder="">
+                        </div>
+                        <label for="" class="col-sm-1 col-form-label">מס' עובד</label>
+                        <div class="col-sm-2">
+                            <input type="number" class="form-control" name="" id="" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="form-group row nopadding">
+                        <label for="" class="col-sm-2 col-form-label">שם באנגלית</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="" id="" placeholder="">
+                        </div>
+                        <label for="" class="col-sm-1 col-form-label">ת. חניה</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="" id="" placeholder="">
+                        </div>
+                        <div class="col-sm-1">
+                        </div>
+                        <div class="col-sm-2" style="text-align:left">
+
+                            <button type="submit" class="btn btn-success btn-block" onclick="return false;">חפש
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                        </div>
+                    </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header card-inverse card-primary btn" style="font-weight: bold;color:white;">
+                פרטים כלליים
+            </div>
+            <div class="card-block">
+                <form>
+
+                    <div class="form-group row">
+                        <label for="id" class="col-sm-2 col-form-label">ת.ז</label>
+                        <div class="col-sm-4">
+                            <input type="number" name="id" id="id" class="form-control " placeholder="12345678">
+                        </div>
+                        <label for="active" class="col-sm-2 col-form-label">פעיל/סטאטוס</label>
+                        <div class="col-sm-2">
+                            <input type="text" name="active" id="active" class="form-control " placeholder="פעיל">
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="text" name="status" id="status" class="form-control " placeholder="">
+
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="firstName" class="col-sm-2 col-form-label">שם פרטי</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="firstName" id="firstName" class="form-control " placeholder="ישראל">
+                        </div>
+                        <label for="lastName" class="col-sm-2 col-form-label">שם משפחה</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="lastName" id="lastName" class="form-control " placeholder="ישראלי">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="factory" class="col-sm-2 col-form-label">מפעל</label>
+                        <div class="col-sm-4">
+                            <select class="form-control" name="factory" id="factory">
+                                        <option>עירייה</option>
+                                        <option>קרן מחקרים</option>
+                                        <option>אגודת הידידים</option>
+                                        <option>לא ידוע</option>
+                            </select>
+                        </div>
+                        <label for="sTaktzivi" class="col-sm-2 col-form-label">ס. תקציבי</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="sTaktzivi" id="sTaktzivi" class="form-control " placeholder="עובד ארעי">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="dept" class="col-sm-2 col-form-label">יח. ארגונית</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="dept" id="dept" class="form-control " placeholder="מחשבים">
+                        </div>
+                        <label for="level" class="col-sm-2 col-form-label">דירוג</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="level" id="level" class="form-control " placeholder="מנהלי">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="dateStart" class="col-sm-2 col-form-label">תחילת עבודה</label>
+                        <div class="col-sm-4">
+                            <input type="date" lang="he" name="dateStart" id="dateStart" class="form-control " placeholder="">
+                        </div>
+                        <label for="dateEnd" class="col-sm-2 col-form-label">סיום עבודה</label>
+                        <div class="col-sm-4">
+                            <input type="date" lang="he" name="dateEnd" id="dateEnd" class="form-control " placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="gender" class="col-sm-2 col-form-label">מין</label>
+                        <div class="col-sm-4">
+                            <select class="form-control" name="gender" id="gender">
+                                        <option>זכר</option>
+                                        <option>נקבה</option>
+                                        <option>לא ידוע</option>
+                            </select>
+                        </div>
+                        <label for="license" class="col-sm-2 col-form-label">מס' רישיון</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="license" id="license" class="form-control " placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="address" class="col-sm-2 col-form-label">כתובת</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="address" id="address" class="form-control " placeholder="הרצל">
+                        </div>
+                        <label for="home" class="col-sm-2 col-form-label">בית/כניסה/דירה</label>
+                        <div class="col-sm-2">
+                            <input type="text" name="home" id="home" class="form-control " placeholder="27">
+                        </div>
+                        <div class="col-sm-1">
+                            <input type="text" name="entrance" id="entrance" class="form-control " placeholder="">
+                        </div>
+                        <div class="col-sm-1">
+                            <input type="text" name="apartment" id="apartment" class="form-control " placeholder="4">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="city" class="col-sm-2 col-form-label">עיר</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="city" id="city" class="form-control " placeholder="חיפה">
+                        </div>
+                        <label for="zip" class="col-sm-2 col-form-label">מיקוד</label>
+                        <div class="col-sm-4">
+                            <input type="number" name="zip" id="zip" class="form-control " placeholder="3104831">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="engFirstName" class="col-sm-2 col-form-label">ש.פרטי אנגלית</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="engFirstName" id="engFirstName" class="form-control" placeholder="Israel">
+                        </div>
+                        <label for="engLastName" class="col-sm-2 col-form-label">ש.משפחה אנגלית</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="engLastName" id="engLastName" class="form-control" placeholder="Israeli">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="sector" class="col-sm-2 col-form-label">סקטור</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="sector" id="sector" class="form-control" placeholder="מינהל ומשק">
+                        </div>
+                        <label for="birthDate" class="col-sm-2 col-form-label">ת. לידה</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="birthDate" id="birthDate" class="form-control " placeholder="01011982">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="sickFund" class="col-sm-2 col-form-label">קופת חולים</label>
+                        <div class="col-sm-4">
+                            <select class="form-control" name="sickFund" id="sickFund">
+                                <option>כללית</option>
+                                <option>מכבי</option>
+                                <option>לאומית</option>
+                                <option>מאוחדת</option>
+                            </select>
+
+                        </div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-4" style="text-align: left;">
+                            <br>
+                            <button type="submit" onclick="return false;" class="btn btn-primary btn-lg"><strong>עדכן פרטים &nbsp;</strong>
+                                    <i class="fa fa-save"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
